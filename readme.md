@@ -10,31 +10,80 @@ This is a project consisting of a React client and an Express server.
 
 ### Installation
 
-1. Clone this repository. \
+1. Clone this repository.
 
 ```
 git clone https://github.com/musstafina/Blockchain2
 ```
 
-2. Navigate to the project directory. \
-   `cd Blockchain2`
+2. Navigate to the project directory.
+
+```
+cd Blockchain2
+```
 
 ### Server Setup
 
-1. Navigate to the `server` directory. \
-   `cd server`
+1. Navigate to the `server` directory.
+
+```
+cd server
+```
 
 2. Run `npm install` to install dependencies.
+
+```
+npm install
+```
+
 3. Once the installation is complete, run `npm start` to start the Express server.
-4. The Express server will be running on `http://localhost:8000` by default.
+
+```
+node app.js
+```
+
+4. The server will be running on `http://localhost:6600` by default.
 
 ### Client Setup
 
-1. Navigate to the `client` directory.
+1. Open new terminal and navigate to the `client` directory.
+
+```
+cd client
+```
+
 2. Run `npm install` to install dependencies.
-3. Once the installation is complete, run `npm start` to start the React development server.
-4. The React client will be running on `http://localhost:3000` by default.
+
+```
+npm install
+```
+
+3. Once the installation is complete, run `npm run dev` to start the React development server.
+
+```
+npm run dev
+```
+
+4. The client will be running on `http://localhost:5173` by default.
 
 ### Viewing Site Pages
 
-- Open your web browser and visit `http://localhost:3000` to view the React client application.
+#### Register page
+
+![Register page](readme/register-page.jpg)
+
+#### Login page
+
+![Register page](readme/login-page.jpg)
+
+#### Home page
+
+![alt text](readme/home-page.jpg)
+
+#### Profile page
+
+![alt text](readme/profile-page.jpg)
+
+#### Blockchain wallet
+
+![alt text](readme/wallet.jpg)
